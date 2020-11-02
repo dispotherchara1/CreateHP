@@ -1,0 +1,66 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0; 
+   /*マージン、パッティングのリセット*/
+}
+
+body{
+   background-image: url(kumakoroshitarou.png);
+   background-color: rgba(255,255,255,0.8);
+   background-blend-mode: lighten;
+}
+
+.banner{
+   background-image: url(kumakoroshitarou.png);
+   background-color: rgba(255,255,255,0.8);
+   background-blend-mode: lighten;
+}
+
+.v_line_left{
+   border-left: thick solid red;
+   padding-left: 10px
+}
+
+.v_line_center{
+   border: thick solid yellow;
+   padding: inherit;
+}
+
+.v_Moji_center{
+   text-align: center;
+}
+
+.url_text{
+	color: #0000FF;
+	transition: 0.5s;
+}
+	margin-bottom: 15px;
+}
+
+.img_alg_center{
+   align-content: center;
+}
+
+.sns a:hover{
+	opacity: 0.7;
+}
+.sns li{
+	display: inline-block;
+}
+.sns a{
+	display: block;
+	padding: 10px 20px;
+	background: #fff;
+	color: #d8c7a0;
+	border-radius: 5px;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.icon-twitter:before {
+	content: "\e601";
+}
+.icon-instagram:before {
+	content: "\e601";
+}
